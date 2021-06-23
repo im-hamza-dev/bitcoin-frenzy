@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  height: 68px;
+  background-color: #394577;
+  color: #ced4eb;
+}
+.flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.frenzy-logo {
+  margin-right: 15px;
+}

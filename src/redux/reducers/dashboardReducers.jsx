@@ -24,8 +24,8 @@ const DashboardReducer = (state = initialState, action) => {
     case types.SELLBITCOIN:
       return {
         ...state,
-        bitcoinBalance: action.payload.bitBalance,
-        dollarBalance: action.payload.dollBalance,
+        bitcoinBalance: state.bitcoinBalance - 1,
+        dollarBalance: state.dollarBalance + state.bitcoinPrice,
       };
     case types.INCREASEBITCOINPRICE:
       return { ...state, bitcoinPrice: state.bitcoinPrice + 1000 };

@@ -1,0 +1,28 @@
+.sell-parent {
+  background-color: white;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  padding-top: 241px;
+  font-size: 20px;
+  color: #29335c;
+  font-weight: 600;
+}
+.custom-button {
+  background-color: #394577;
+  color: #fafafa;
+  border-radius: 10px;
+  margin: 0px 15px;
+  border: 0px;
+  padding: 10px 17px;
+  transition: 1s;
+}
+.custom-button:hover {
+  background-color: #222e5c;
+}
+
+.error-insufficient-balance {
+  margin-top: 15px;
+  color: rgb(219, 51, 51);
+  font-weight: 700;
+}

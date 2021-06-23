@@ -1,0 +1,11 @@
+.dashboard-parent {
+  overflow-y: hidden;
+}
+
+.flexbox-dashboard {
+  display: flex;
+}
+
+.flex-dashboard-restriction {
+  flex: 1;
+}

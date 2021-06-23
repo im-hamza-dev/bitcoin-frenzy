@@ -1,0 +1,33 @@
+.sidebar-parent {
+  display: flex;
+  background-color: #394577;
+  color: #ced4eb;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  padding: 10px;
+  background: "#f0f0f0";
+  width: 239px;
+}
+
+.list-parent {
+  list-style-type: none;
+  padding: 25px;
+}
+.list-parent li {
+  margin-bottom: 15px;
+}
+
+.sidebar-item-icon {
+  margin-right: 15px;
+}
+.sidebar-item {
+  color: #ced4eb;
+  text-decoration: none;
+}
+.selected {
+  font-weight: 700;
+  color: white;
+}
